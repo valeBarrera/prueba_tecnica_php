@@ -1,8 +1,8 @@
 ## Intrucciones
 -   Cree una BDD para el proyecto.
 -   Registre sus credenciales de la BDD en el archivo .env que se encuentra en el directorio raíz del proyecto.
--   Ejecute la intrucción `<php artisan migrate:fresh>`
--   Ejecute la instrucción para ejecutar el proyecto `<php artisan serve>`
+-   Ejecute la intrucción `php artisan migrate:fresh`
+-   Ejecute la instrucción para ejecutar el proyecto `php artisan serve`
 
 ## Funcionalidades
 -   Creación de nuevos Usuarios.
