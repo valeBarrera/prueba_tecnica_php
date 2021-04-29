@@ -138,8 +138,8 @@ class UserController extends Controller
     public function asignate(Request $request)
     {
         $validate = Validator::make($request->all(), [
-            'user_id' => 'required|max:8|exists:Usuario,id',
-            'group_id' => 'required|max:8|exists:Group,id',
+            'user_id' => 'required|max:8|exists:Users,id',
+            'group_id' => 'required|max:8|exists:Groups,id',
         ]);
         if ($validate->fails()) {
             $data = new \stdClass();

@@ -24,3 +24,4 @@ Route::resource('user', UserController::class)->only([
     'store', 'update', 'destroy'
 ]);
 
+Route::post('asign',[UserController::class, 'asignate']);
